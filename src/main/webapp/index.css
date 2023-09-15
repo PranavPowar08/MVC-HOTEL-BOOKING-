@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+
+body {
+    
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5cm;
+    color: aqua;
+    margin: 0px; 
+  
+}
+
+.nav_bar_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1cm 0 1cm;
+    margin: 0px;
+}
+
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1cm 0 1cm;
+    margin: 0px;
+}
+
+.button1 {
+    margin-right: 2cm;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+    color: white;
+}
+
+
+a:hover {
+    color: black;
+}
+
+.button1:hover {
+    background-color: aqua;
+    color: black;
+}
+
+h1 {
+  text-align: center;
+  color:white;
+  text-decoration: underline;
+  
+}
+
+h1:hover{
+	color: aqua;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  
+  color:white;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 90%;
+  padding: 10px;
+  border: none;
+}
+
+b:hover{
+	color: aqua;
+}
+
+.button {
+    margin-right: 2cm;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.button b:hover{
+	color: black;
+}
+
+
